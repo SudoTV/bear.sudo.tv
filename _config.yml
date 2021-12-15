@@ -1,10 +1,10 @@
-title: snippet.mengw.io
+title: bear.sudo.tv
 email: wm@mengw.io
-description: Amazing Snippets
-url: https://snippet.mengw.io
+description: SudoTV Bear With Me
+url: https://bear.sudo.tv
 github_username: WMXPY
 theme: minima
-repository: WMXPY/snippet.mengw.io
+repository: SudoTV/bear.sudo.tv
 markdown: kramdown
 kramdown:
   input: GFM

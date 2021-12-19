@@ -15,9 +15,16 @@ author:
 plugins:
   - jekyll-github-metadata
 exclude:
+  - _includes
+  - _layouts
+  - ".vscode/"
   - .jekyll-cache/
   - docs/
   - gemfiles/
+  - _config.yml
+  - ".gitignore"
+  - CNAME
   - Gemfile
   - Gemfile.lock
+  - LICENSE
   - makefile

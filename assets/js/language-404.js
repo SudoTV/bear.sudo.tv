@@ -1,4 +1,4 @@
-const language = window.navigator.userLanguage || window.navigator.language;
+const language = getLanguage();
 
 (() => {
 

@@ -1,17 +1,17 @@
 const language = getLanguage();
 
 (() => {
+    const path = window.location.pathname;
 
-    if (
-        window.location.pathname.startsWith('/zh')
-        || window.location.pathname.startsWith('/en')
-    ) {
+    if (availableLanguages.some((each) => {
+        return path.startsWith(`/${each}`);
+    })) {
         return;
     }
 
     if (language === 'zh-CN') {
-        window.location.href = `/zh${window.location.pathname}`;
+        window.location.href = `/zh-CN${window.location.pathname}`;
     } else {
-        window.location.href = `/en${window.location.pathname}`;
+        window.location.href = `/en-US${window.location.pathname}`;
     }
 })();

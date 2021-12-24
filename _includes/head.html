@@ -5,8 +5,12 @@
 
   {%- seo -%}
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="{{ "/assets/main.css?v=" | append: site.github.build_revision | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/code.css?v=" | append: site.github.build_revision | relative_url  }}">
+  <link rel="stylesheet"
+    href="{{ "/assets/css/language.css?v=" | append: site.github.build_revision | relative_url  }}">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
   {%- include google-analytics.html -%}

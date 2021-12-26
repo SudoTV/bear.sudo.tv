@@ -9,6 +9,25 @@
     flex: auto;
 }
 
+.links-footer {
+    display: block;
+}
+
+.links-footer-ul {
+    font-size: 14px;
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.links-footer-li {
+    margin-right: 16px;
+    box-sizing: border-box;
+}
+
 .license-footer {
     margin-top: 4px;
     color: #828282;

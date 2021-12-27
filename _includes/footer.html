@@ -5,7 +5,11 @@
             <div class="footer-col open-source-footer">
                 {% if site.github.private != true and site.github.license %}
                 <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+                    {% if page.localization == "en-US" %}
                     This site is open source. {% github_edit_link "Improve this page" %}.
+                    {% elsif page.localization == "zh-CN" %}
+                    本站渲染自开源项目. {% github_edit_link "帮助本页面变得更好" %}.
+                    {% endif %}
                 </div>
                 {% endif %}
             </div>
@@ -32,17 +36,29 @@
                 </li>
                 <li class="links-footer-li">
                     <a href="https://sudo.tv/$/privacy">
+                        {% if page.localization == "en-US" %}
                         Privacy
+                        {% elsif page.localization == "zh-CN" %}
+                        隐私
+                        {% endif %}
                     </a>
                 </li>
                 <li class="links-footer-li">
                     <a href="https://sudo.tv/$/about">
+                        {% if page.localization == "en-US" %}
                         About
+                        {% elsif page.localization == "zh-CN" %}
+                        关于
+                        {% endif %}
                     </a>
                 </li>
                 <li class="links-footer-li">
                     <a href="https://sudo.tv/$/contact">
+                        {% if page.localization == "en-US" %}
                         Contact
+                        {% elsif page.localization == "zh-CN" %}
+                        联系
+                        {% endif %}
                     </a>
                 </li>
                 <li class="links-footer-li">
@@ -50,32 +66,56 @@
                 </li>
                 <li class="links-footer-li">
                     <a href="https://sudo.tv/">
+                        {% if page.localization == "en-US" %}
                         SudoTV
+                        {% elsif page.localization == "zh-CN" %}
+                        SudoTV 主站
+                        {% endif %}
                     </a>
                 </li>
                 <li class="links-footer-li">
                     <a href="https://bear.sudo.tv/">
+                        {% if page.localization == "en-US" %}
                         Bear
+                        {% elsif page.localization == "zh-CN" %}
+                        熊
+                        {% endif %}
                     </a>
                 </li>
                 <li class="links-footer-li">
                     <a href="https://docs.sudo.tv/">
+                        {% if page.localization == "en-US" %}
                         Documents
+                        {% elsif page.localization == "zh-CN" %}
+                        文档
+                        {% endif %}
                     </a>
                 </li>
                 <li class="links-footer-li">
                     <a href="https://project.sudo.tv/">
+                        {% if page.localization == "en-US" %}
                         Project
+                        {% elsif page.localization == "zh-CN" %}
+                        项目
+                        {% endif %}
                     </a>
                 </li>
                 <li class="links-footer-li">
                     <a href="https://resource.sudo.tv/">
+                        {% if page.localization == "en-US" %}
                         Resource
+                        {% elsif page.localization == "zh-CN" %}
+                        资源
+                        {% endif %}
                     </a>
                 </li>
                 <li class="links-footer-li">
                     <a href="https://series.sudo.tv/">
+                        {% if page.localization == "en-US" %}
                         Series
+                        {% elsif page.localization == "zh-CN" %}
+                        剧集
+                        {% endif %}
                     </a>
                 </li>
             </ul>
@@ -88,10 +128,23 @@
                 </a>
             </div>
             <div class="license-footer-text">
+                {% if page.localization == "en-US" %}
+                Published Under a
+                {% elsif page.localization == "zh-CN" %}
+                基于
+                {% endif %}
                 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+                    {% if page.localization == "en-US" %}
                     CC-BY-NC_ND 4.0 License
+                    {% elsif page.localization == "zh-CN" %}
+                    CC-BY-NC_ND 4.0 协议
+                    {% endif %}
                 </a>
+                {% if page.localization == "en-US" %}
                 © 2022 WMXPY
+                {% elsif page.localization == "zh-CN" %}
+                共享 © 2022 WMXPY
+                {% endif %}
             </div>
         </div>
     </div>

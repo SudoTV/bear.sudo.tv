@@ -1,4 +1,5 @@
 (() => {
+
     const codeBlocks = document.querySelectorAll('.copyable-block-container');
     const copyCodeButtons = document.querySelectorAll('.copyable-block-button');
 

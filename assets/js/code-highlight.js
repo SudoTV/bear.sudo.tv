@@ -1,4 +1,5 @@
 (() => {
+
     const highlightBlocks = document.querySelectorAll('code[data-lang]');
     const highlightCodeButtons = document.querySelectorAll('.copyable-code-button');
 

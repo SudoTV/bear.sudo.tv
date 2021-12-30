@@ -6,12 +6,18 @@ const language = getLanguage();
     if (availableLanguages.some((each) => {
         return path.startsWith(`/${each}`);
     })) {
+
+        document.write(test);
         return;
     }
 
+    document.write(`Redirecting`);
+
+    const tempUrl = `${window.location.pathname}${window.location.search}`;
+
     if (language === 'zh-CN') {
-        window.location.href = `/zh-CN${window.location.pathname}`;
+        window.location.href = `/zh-CN${tempUrl}`;
     } else {
-        window.location.href = `/en-US${window.location.pathname}`;
+        window.location.href = `/en-US${tempUrl}`;
     }
 })();

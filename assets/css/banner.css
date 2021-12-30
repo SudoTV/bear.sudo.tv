@@ -1,4 +1,4 @@
-.cross-site-banner {
+.site-banner {
     border: 2px solid #4444BB;
     border-left: 4px solid #4444BB;
     padding: 8px;
@@ -7,15 +7,15 @@
     display: flex;
 }
 
-.cross-site-banner-hidden {
+.site-banner-hidden {
     display: none;
 }
 
-.cross-site-banner-text {
+.site-banner-text {
     flex: 1;
 }
 
-.cross-site-banner-close {
+.site-banner-close {
     font-size: 16px;
     margin-left: 8px;
     width: 32px;
@@ -26,7 +26,7 @@
     transition: all 0.2s ease-in-out;
 }
 
-.cross-site-banner-close:hover {
+.site-banner-close:hover {
     background-color: #4444BB;
     color: #FFFFFF;
 }

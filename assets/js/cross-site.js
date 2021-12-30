@@ -2,6 +2,10 @@
 
     const crossSiteMap = {
         'zh-CN': {
+            'SudoTV': {
+                backLinkName: 'SudoTV 主站',
+                backLinkUrl: 'https://sudo.tv/',
+            },
             'SudoTV Docs': {
                 backLinkName: 'SudoTV 文档主页',
                 backLinkUrl: 'https://docs.sudo.tv/',
@@ -24,6 +28,10 @@
             },
         },
         'en-US': {
+            'SudoTV': {
+                backLinkName: 'SudoTV Index',
+                backLinkUrl: 'https://sudo.tv/',
+            },
             'SudoTV Docs': {
                 backLinkName: 'SudoTV Docs Index',
                 backLinkUrl: 'https://docs.sudo.tv/',
@@ -58,6 +66,10 @@
         return;
     }
 
+    if (params.origin === siteCommon.applicationName) {
+        return;
+    }
+
     const language = getLanguage();
     let messageQueue = [];
 
@@ -80,7 +92,7 @@
         window.location.href = tempUrl;
     });
 
-    crossSiteBanner.classList.remove('cross-site-banner-hidden');
+    crossSiteBanner.classList.remove('site-banner-hidden');
 
     switch (language) {
 

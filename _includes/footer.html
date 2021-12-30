@@ -35,7 +35,7 @@
                     <i class="fa fa-fw fa-map" aria-hidden="true"></i>
                 </li>
                 <li class="links-footer-li">
-                    <a href="https://sudo.tv/privacy">
+                    <a data-origin="{{ site.application_name }}" href="https://sudo.tv/privacy">
                         {% if page.localization == "en-US" %}
                         Privacy
                         {% elsif page.localization == "zh-CN" %}
@@ -44,7 +44,7 @@
                     </a>
                 </li>
                 <li class="links-footer-li">
-                    <a href="https://sudo.tv/about">
+                    <a data-origin="{{ site.application_name }}" href="https://sudo.tv/about">
                         {% if page.localization == "en-US" %}
                         About
                         {% elsif page.localization == "zh-CN" %}
@@ -53,7 +53,7 @@
                     </a>
                 </li>
                 <li class="links-footer-li">
-                    <a href="https://sudo.tv/frequently-asked-questions">
+                    <a data-origin="{{ site.application_name }}" href="https://sudo.tv/frequently-asked-questions">
                         {% if page.localization == "en-US" %}
                         FAQ
                         {% elsif page.localization == "zh-CN" %}
@@ -62,7 +62,7 @@
                     </a>
                 </li>
                 <li class="links-footer-li">
-                    <a href="https://sudo.tv/interact">
+                    <a data-origin="{{ site.application_name }}" href="https://sudo.tv/interact">
                         {% if page.localization == "en-US" %}
                         Interact
                         {% elsif page.localization == "zh-CN" %}
@@ -71,7 +71,7 @@
                     </a>
                 </li>
                 <li class="links-footer-li">
-                    <a href="https://sudo.tv/contribute">
+                    <a data-origin="{{ site.application_name }}" href="https://sudo.tv/contribute">
                         {% if page.localization == "en-US" %}
                         Contribute
                         {% elsif page.localization == "zh-CN" %}
@@ -80,7 +80,7 @@
                     </a>
                 </li>
                 <li class="links-footer-li">
-                    <a href="https://sudo.tv/reprint">
+                    <a data-origin="{{ site.application_name }}" href="https://sudo.tv/reprint">
                         {% if page.localization == "en-US" %}
                         Reprint
                         {% elsif page.localization == "zh-CN" %}
@@ -89,7 +89,7 @@
                     </a>
                 </li>
                 <li class="links-footer-li">
-                    <a href="https://sudo.tv/contact">
+                    <a data-origin="{{ site.application_name }}" href="https://sudo.tv/contact">
                         {% if page.localization == "en-US" %}
                         Contact Us
                         {% elsif page.localization == "zh-CN" %}
@@ -208,3 +208,4 @@
     </div>
 </footer>
 <script src="/assets/js/language-footer.js"></script>
+<script src="/assets/js/redirect-footer.js"></script>

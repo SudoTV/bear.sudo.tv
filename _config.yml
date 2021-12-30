@@ -6,6 +6,10 @@ url: https://bear.sudo.tv
 github_username: WMXPY
 theme: minima
 repository: SudoTV/bear.sudo.tv
+plugins_dir: common/_plugins
+layouts_dir: common/_layouts
+data_dir: common/_data
+includes_dir: common/_includes
 markdown: kramdown
 kramdown:
   input: GFM
@@ -16,6 +20,12 @@ author:
 plugins:
   - jekyll-github-metadata
 exclude:
+  - common/_plugins
+  - common/_layouts
+  - common/_data
+  - common/_includes
+  - "common/docs"
+  - "common/LICENSE"
   - _includes
   - _layouts
   - ".vscode/"

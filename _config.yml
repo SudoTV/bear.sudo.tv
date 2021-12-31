@@ -8,7 +8,6 @@ theme: minima
 repository: SudoTV/bear.sudo.tv
 plugins_dir: common/_plugins
 layouts_dir: common/_layouts
-data_dir: common/_data
 includes_dir: common/_includes
 markdown: kramdown
 kramdown:
@@ -22,7 +21,6 @@ plugins:
 exclude:
   - common/_plugins
   - common/_layouts
-  - common/_data
   - common/_includes
   - "common/docs"
   - "common/LICENSE"
@@ -30,6 +28,7 @@ exclude:
   - .jekyll-cache/
   - docs/
   - gemfiles/
+  - _data
   - _config.yml
   - ".gitignore"
   - CNAME

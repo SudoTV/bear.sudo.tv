@@ -1,6 +1,6 @@
 ---
 title: 准备中
-layout: default
+layout: base
 localization: zh-CN
 ---
 

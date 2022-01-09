@@ -1,6 +1,6 @@
 ---
 title: Work In Progress
-layout: default
+layout: base
 localization: en-US
 ---
 

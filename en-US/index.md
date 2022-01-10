@@ -6,6 +6,6 @@ localization: en-US
 
 {% include banner/not-ready.html %}
 
-# Work In Progress
+# {{ page.title }}
 
 Coming Soon

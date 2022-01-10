@@ -6,6 +6,6 @@ localization: zh-CN
 
 {% include banner/not-ready.html %}
 
-# 准备中
+# {{ page.title }}
 
 嘿嘿

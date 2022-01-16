@@ -1,5 +1,5 @@
 ---
-title: 准备中
+title: SudoTV 熊吉
 layout: base
 localization: zh-CN
 ---

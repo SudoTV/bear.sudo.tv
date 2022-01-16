@@ -1,5 +1,5 @@
 ---
-title: Work In Progress
+title: SudoTV Bear
 layout: base
 localization: en-US
 ---

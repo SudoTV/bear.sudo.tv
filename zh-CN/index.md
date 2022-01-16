@@ -8,7 +8,7 @@ localization: zh-CN
 
 ## 熊吉
 
-本站收录 SudoTV 剧集的脚本。如果您想跟随剧集一起编程，请访问：
+本站收录 SudoTV 剧集的文字记录。如果您想跟随剧集一起编程，请访问：
 
 {% include navigation/absolute-link.html
     with-origin=true
@@ -18,7 +18,7 @@ localization: zh-CN
     description="浏览 SudoTV 剧集"
 %}
 
-如果您想浏览剧集的脚本，点击以下剧集以查看每一集的脚本。
+如果您想浏览剧集的文字记录，点击以下剧集以查看每一集的文字记录。
 
 ## 剧集列表
 

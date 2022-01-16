@@ -4,3 +4,6 @@
 [submodule "series"]
 	path = _data/series
 	url = https://github.com/SudoTV/SudoTV-Site-Data-Series.git
+[submodule "topic"]
+	path = _data/topic
+	url = https://github.com/SudoTV/SudoTV-Site-Data-Resource.git

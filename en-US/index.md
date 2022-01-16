@@ -8,7 +8,7 @@ localization: en-US
 
 ## Bear
 
-This site contains scripts for SudoTV series. If you want to bear with the series content, please visit:
+This site contains transcripts for SudoTV series. If you want to bear with the series content, please visit:
 
 {% include navigation/absolute-link.html
     with-origin=true
@@ -18,7 +18,7 @@ This site contains scripts for SudoTV series. If you want to bear with the serie
     description="Browse SudoTV Series"
 %}
 
-If you want to browse the scripts of the series, please click the series below to view the scripts of each episodes.
+If you want to browse the transcripts of the series, please click the series below to view the transcripts of each episodes.
 
 ## Series List
 

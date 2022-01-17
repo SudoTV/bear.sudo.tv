@@ -2,7 +2,10 @@
 title: Episode 1 - What To Play
 layout: base
 localization: en-US
+language: zh-CN
 ---
+
+{% include banner/not-translated.html %}
 
 {% include bear/episode-detail.html
     series=site.data.series.what-to-play

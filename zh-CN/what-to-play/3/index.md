@@ -7,7 +7,6 @@ localization: zh-CN
 {% include bear/episode-detail.html
     series=site.data.series.what-to-play
     episode-id=2
-    dependency0=site.data.topic.node-js
 %}
 
 Hello 大家好，欢迎来到本期小教程。上一集，我们搞定了代码的下载，学习了 Git 的基础使用。这一集我们主要一起学习使用第三方的包，用它尝试从 Steam 获得需要的数据并且把他们渲染在我们的界面上。为了获得数据，各位要先注册一个自己的 Steam API Key，那我们从这里开始吧。

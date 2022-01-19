@@ -10,7 +10,6 @@ language: zh-CN
 {% include bear/episode-detail.html
     series=site.data.series.what-to-play
     episode-id=2
-    dependency0=site.data.topic.node-js
 %}
 
 Hello 大家好，欢迎来到本期小教程。上一集，我们设置了我们的应用运行所需的环境，也做了一点点工作。这一集我们不写代码，而是要先补充一个基础知识：版本控制系统 Git。每一集教程我都会为这一集结束之后的代码做一个标记，只要有这个版本控制系统各位就可以完美的从上一次结束的地方继续。

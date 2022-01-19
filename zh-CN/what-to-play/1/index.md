@@ -7,7 +7,6 @@ localization: zh-CN
 {% include bear/episode-detail.html
     series=site.data.series.what-to-play
     episode-id=1
-    dependency0=site.data.topic.node-js
 %}
 
 Hello 大家好，欢迎来到本期小教程。从今天开始，我们会使用 React 一起从 0 开始完成一个简单的网页应用程序。这套教程适合想尝试一下的新手，有一点点了解但是没有项目经验的学生，甚至没有尝试过现代网页开发的从业者。

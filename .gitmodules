@@ -7,3 +7,6 @@
 [submodule "topic"]
 	path = _data/topic
 	url = https://github.com/SudoTV/SudoTV-Site-Data-Resource.git
+[submodule "stamp"]
+	path = _data/stamp
+	url = https://github.com/SudoTV/SudoTV-Site-Data-Stamp.git

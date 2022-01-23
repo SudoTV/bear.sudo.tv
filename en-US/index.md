@@ -36,3 +36,21 @@ If you want to browse the transcripts of the series, please click the series bel
     href="clone-bilibili"
     series=site.data.series.clone-bilibili
 %}
+
+## Learn More
+
+{% include navigation/absolute-link.html
+    external=true
+    with-origin=true
+    href="https://sudo.tv/reprint/series"
+    title="How to Reprint Series"
+    description="View your right and limitations to reprint SudoTV Series"
+%}
+
+{% include navigation/absolute-link.html
+    external=true
+    with-origin=true
+    href="https://sudo.tv/reprint/site"
+    title="How to Reprint Sites Content and Source Code"
+    description="View your right and limitations to reprint SudoTV Sites Content and Source Code"
+%}

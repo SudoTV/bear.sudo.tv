@@ -8,7 +8,7 @@ localization: en-US
 
 ## Bear
 
-This site contains transcripts for SudoTV series. If you want to bear with the series content, please visit:
+This site contains transcripts for SudoTV series. If you want to watch video, or hands-on with the series content, please visit:
 
 {% include navigation/absolute-link.html
     with-origin=true

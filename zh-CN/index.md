@@ -8,7 +8,7 @@ localization: zh-CN
 
 ## 熊吉
 
-本站收录 SudoTV 剧集的文字记录。如果您想跟随剧集一起编程，请访问：
+本站收录 SudoTV 剧集的文字记录。如果您想观看剧集视频，或者跟随剧集一起编程，请访问：
 
 {% include navigation/absolute-link.html
     with-origin=true
